@@ -68,7 +68,6 @@ public class Main {
 
         System.out.println("测试过期令牌 (等待 " + (tokenValidity.getSeconds() + 1) + " 秒)...");
         tokenValidity = Duration.ofSeconds(2);
-        tokenService = TokenServiceFactory.createWithAES_GCM(secretKey, tokenValidity);
         token = tokenService.generateToken(userId);
         System.out.println("短期令牌: " + token);
         Thread.sleep((tokenValidity.getSeconds() + 1) * 1000);

@@ -9,15 +9,17 @@
 
 ## 环境要求
 - Java版本需要 >= 8
-
+  
 ## 介绍
 - `cn.langya.TokenService` - 令牌生成/验证
 - `cn.langya.TokenServiceFactory` - 令牌加密
-- `cn.langya.TokenGenerationException` - 令牌异常
-- `cn.langya.TokenGenerationException` - 令牌异常
+- `cn.langya.TokenGenerationException` - 令牌生成异常
+- `cn.langya.TokenEncryptionException` - 令牌加密异常
 - https://github.com/LangYa466/CryptoUtils - 加密处理
 
-## 输出示例
+## 示例
+代码示例在 `src/test/java/langya/Main.java`
+
 ```text
 第1次测试
 
