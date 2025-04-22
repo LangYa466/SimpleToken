@@ -2,6 +2,10 @@
 
 简单鉴权库 (AES-GCM / AES-CBC / 自定义) 加密算法生成/验证和管理令牌 令牌可以用于用户身份验证和权限管理
 
+# 使用 maven/gradle 导入
+https://jitpack.io/#LangYa466/SimpleToken/-SNAPSHOT
+---
+
 ## 特性
 - 支持使用 (AES-GCM / AES-CBC / 自定义) 加密算法生成安全令牌
 - 自动处理令牌验证 包括篡改检测/过期检测
